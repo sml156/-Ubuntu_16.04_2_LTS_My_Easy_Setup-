@@ -10,6 +10,6 @@ sudo apt -y autoremove
 
 
 #Keep adding stuff here
-
+sudo apt -y install nano
 
 echo "\nDone...\n \a "
