@@ -11,5 +11,6 @@ sudo apt -y autoremove
 
 #Keep adding stuff here
 sudo apt -y install nano
+sudo apt -y install rcconf sysv-rc-conf
 
 echo "\nDone...\n \a "
