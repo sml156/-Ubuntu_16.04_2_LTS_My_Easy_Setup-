@@ -1,6 +1,6 @@
 #!/bin/bash
 # 
-
+echo "\nThis script will take quite a while, Go make a coffie\n"
 # Upgrade installed packages
 echo "\nUpgrade everything even the kernel and clean up some crap...\n"
 #sudo apt -y update 
