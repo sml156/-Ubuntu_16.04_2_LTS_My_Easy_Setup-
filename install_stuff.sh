@@ -7,12 +7,14 @@ sudo apt -qq update && sudo apt -qq dist-upgrade
 
 
 #Keep adding stuff here
-echo "\nInstall nano...\n \a "
+echo " "
+echo "$(tput setaf 0) $(tput setab 7)...Install Nano...$(tput sgr 0)"
 sudo apt -qq install nano
-echo "\nInstall rcconf and sysv-rc-conf...\n \a "
+echo " "
+echo "$(tput setaf 0) $(tput setab 7)...Install rcconf and sysv-rc-conf...$(tput sgr 0)"
 sudo apt -qq install rcconf sysv-rc-conf
 
-echo "\nDone...\n \a "
-
+echo " "
+echo "$(tput setaf 0) $(tput setab 7)...Done...$(tput sgr 0)"
 
 # sudo dpkg-reconfigure tzdata
