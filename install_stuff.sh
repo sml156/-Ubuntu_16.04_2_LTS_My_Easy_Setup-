@@ -25,10 +25,10 @@ echo " "
 sudo apt -y -qq install rcconf sysv-rc-conf
 echo " "
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
-echo "$(tput setaf 0) $(tput setab 7)           ...Install iptraf and iftop...                     $(tput sgr 0)"
+echo "$(tput setaf 0) $(tput setab 7)                ...Install iftop...                           $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo " "
-sudo apt -y -qq install iptraf iftop
+sudo apt -y -qq install iftop
 echo " "
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                   ...Done...                                 $(tput sgr 0)"
