@@ -7,7 +7,7 @@
 echo "\nThis script will take quite a while, Go make a coffie\n"
 # Upgrade installed packages Quietly 
 echo "\nUpgrade everything even the kernel and clean up some crap...\n"
-sudo apt -qq update && sudo apt -y -qq dist-upgrade && sudo apt -y -qq autoclean
+sudo apt -qq update && sudo apt -y -qq dist-upgrade && apt -y -qq autoclean
 
 
 #Keep adding stuff here
@@ -25,9 +25,19 @@ echo " "
 sudo apt -y -qq install rcconf sysv-rc-conf
 echo " "
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
+echo "$(tput setaf 0) $(tput setab 7)           ...Install iptraf and iftop...                     $(tput sgr 0)"
+echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
+echo " "
+sudo apt -y -qq install iptraf iftop
+echo " "
+echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                   ...Done...                                 $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo " "
-echo " "
-echo " "
-echo " "
+
+
+
+
+
+
+sudo apt-get install iptraf
