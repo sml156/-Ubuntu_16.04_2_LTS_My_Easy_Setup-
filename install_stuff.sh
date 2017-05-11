@@ -34,10 +34,6 @@ echo "$(tput setaf 0) $(tput setab 7)                                           
 echo "$(tput setaf 0) $(tput setab 7)                   ...Done...                                 $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo " "
-
-
-
-
-
-
-sudo apt-get install iptraf
+echo " "
+echo " "
+echo " "
