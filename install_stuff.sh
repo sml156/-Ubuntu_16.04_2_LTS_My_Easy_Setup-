@@ -12,11 +12,11 @@ sudo apt -qq update && sudo apt -y -qq dist-upgrade
 
 #Keep adding stuff here
 echo " "
-echo "$(tput setaf 0) $(tput setab 7)               ...Install Nano...                      $(tput sgr 0)"
+echo "$(tput setaf 0) $(tput setab 7)               ...Install Nano...                            $(tput sgr 0)"
 sudo apt -y -qq install nano
 echo " "
-echo "$(tput setaf 0) $(tput setab 7)       ...Install rcconf and sysv-rc-conf...           $(tput sgr 0)"
+echo "$(tput setaf 0) $(tput setab 7)       ...Install rcconf and sysv-rc-conf...                 $(tput sgr 0)"
 sudo apt -y -qq install rcconf sysv-rc-conf
 
 echo " "
-echo "$(tput setaf 0) $(tput setab 7)                  ...Done...                           $(tput sgr 0)"
+echo "$(tput setaf 0) $(tput setab 7)                  ...Done...                                 $(tput sgr 0)"
