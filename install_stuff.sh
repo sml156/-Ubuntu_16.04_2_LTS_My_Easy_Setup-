@@ -7,7 +7,7 @@
 echo "\nThis script will take quite a while, Go make a coffie\n"
 # Upgrade installed packages Quietly 
 echo "\nUpgrade everything even the kernel and clean up some crap...\n"
-sudo apt -qq update && sudo apt -y -qq dist-upgrade && apt -y -qq autoclean
+sudo apt -qq update && sudo apt -y -qq dist-upgrade && sudo apt -y -qq autoclean
 
 
 #Keep adding stuff here
