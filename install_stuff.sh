@@ -19,10 +19,10 @@ echo " "
 sudo apt -y -qq install nano
 echo " "
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
-echo "$(tput setaf 0) $(tput setab 7)       ...Install rcconf and sysv-rc-conf...                  $(tput sgr 0)"
+echo "$(tput setaf 0) $(tput setab 7)    ...Install rcconf and sysv-rc-conf php-zip...             $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo " "
-sudo apt -y -qq install rcconf sysv-rc-conf
+sudo apt -y -qq install rcconf sysv-rc-conf php-zip
 echo " "
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                ...Install iftop...                           $(tput sgr 0)"
