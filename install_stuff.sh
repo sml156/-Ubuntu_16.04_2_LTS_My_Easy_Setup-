@@ -13,7 +13,7 @@ sudo apt -qq update && sudo apt -y -qq dist-upgrade && sudo apt -y -qq autoclean
 #Keep adding stuff here
 echo " "
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
-echo "$(tput setaf 0) $(tput setab 7)               ...Install Stuff for SMB...                             $(tput sgr 0)"
+echo "$(tput setaf 0) $(tput setab 7)               ...Install Stuff for SMB...                    $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo " "
 sudo apt -y install libsmbclient libwbclient0 python-dnspython python-samba python3-smbc samba samba-common samba-common-bin samba-dsdb-modules samba-libs samba-vfs-modules smbclient cifs-utils php-smbclient
