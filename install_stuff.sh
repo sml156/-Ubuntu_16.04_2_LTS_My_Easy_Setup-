@@ -16,7 +16,7 @@ echo "$(tput setaf 0) $(tput setab 7)                                           
 echo "$(tput setaf 0) $(tput setab 7)               ...Install Stuff for SMB...                    $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo " "
-sudo apt -y -qq install libsmbclient libwbclient0 python-dnspython python-samba python3-smbc samba samba-common samba-common-bin samba-dsdb-modules samba-libs samba-vfs-modules smbclient cifs-utils php-smbclient
+sudo apt -y -qq install cifs-utils libsmbclient libwbclient0 php-smbclient python-dnspython python-samba python3-smbc samba samba-common samba-common-bin samba-dsdb-modules samba-libs samba-vfs-modules smbclient
 echo " "
 echo "$(tput setaf 0) $(tput setab 7)                                                              $(tput sgr 0)"
 echo "$(tput setaf 0) $(tput setab 7)               ...Install Nano...                             $(tput sgr 0)"
